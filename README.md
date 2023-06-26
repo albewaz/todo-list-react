@@ -1,8 +1,7 @@
 # Task list
-
 <img src="/public/%PUBLIC_URL%/Readme.md.gif" width="70%" alt="to-do list in React screenshot">
 
-Description
+## Description
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
