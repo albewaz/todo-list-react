@@ -1,6 +1,6 @@
 import "./style.css"; 
 
-const Section = ({title, body, extraHeaderContent}) => (
+const Section = ({ title, body, extraHeaderContent }) => (
     <section className="section">
         <div className="section__headerSection">
           <h2 className="section__header">{title}</h2>
