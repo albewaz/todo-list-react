@@ -1,10 +1,25 @@
 # Task list
+![Readme.md](https://github.com/albewaz/todo-list-react/blob/master/public/%25PUBLIC_URL%25/Readme.md.gif?raw=true)
 
-<img src="/public/%PUBLIC_URL%/Readme.md.gif" width="70%" alt="to-do list in React screenshot">
+## Demo
+https://albewaz.github.io/todo-list-react/
 
-Description
+## Description
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Technologies
+The following technologies and tools were used in the project:
+
+- JavaScript
+- React
+- HTML5
+- CSS3
+- Webpack
+- BEM 
+- Grid
+- Flexbox
+- Immutability
 
 ## Available Scripts
 
