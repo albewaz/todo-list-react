@@ -13,7 +13,7 @@
     word-break: break-all;
 }
 
-.tasks__item--done {
+.tasks__content--done {
     text-decoration: line-through;
 }
 
