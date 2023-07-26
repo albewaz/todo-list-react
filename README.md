@@ -1,12 +1,10 @@
 # Task list
 ![Readme.md](https://github.com/albewaz/todo-list-react/blob/master/Readme.md.gif)
 
-## Demo
+## About
+This is a task list made for everyday use. Enter the task and then uncheck or delete. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 https://albewaz.github.io/todo-list-react/
-
-## Description
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Technologies
 The following technologies and tools were used in the project:
