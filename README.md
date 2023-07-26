@@ -1,5 +1,5 @@
 # Task list
-![Readme.md](https://github.com/albewaz/todo-list-react/blob/master/public/%25PUBLIC_URL%25/Readme.md.gif?raw=true)
+![Readme.md](https://github.com/albewaz/todo-list-react/blob/master/Readme.md.gif)
 
 ## Demo
 https://albewaz.github.io/todo-list-react/
