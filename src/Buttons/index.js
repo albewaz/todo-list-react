@@ -1,8 +1,7 @@
-import { Container } from "../Container/styled";
-import { Button } from "./styled";
+import { Button, Wrapper } from "./styled";
 
 const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone}) => (
-    <Container>
+    <Wrapper>
         {tasks.length > 0 && (
             <>
                 <Button onClick={toggleHideDone}>
@@ -16,7 +15,7 @@ const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone}) => (
                 </Button>
             </>
         )}
-    </Container>
+    </Wrapper>
 );
 
 export default Buttons;

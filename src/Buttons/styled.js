@@ -1,24 +1,28 @@
 import styled from "styled-components";
 
+export const Wrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`;
+
 export const Button = styled.button`
-  color: teal;
+  color: ${({theme}) => theme.color.teal};
   background: none;
   border: none;
   transition: 0.5s;
   padding: 20px;
 
-  @media (max-width: 767px) {
+  @media (max-width:${({theme}) => theme.breakpoint.mobileMax}px) {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
   }
   
   &:hover {
-    color: hsl(180, 95%, 41%);
-    cursor: pointer;
+    filter: brightness(110%);
   }
 
   &:active {
-    color: #ccc;
+    filter: brightness(120%);
   }
 `;

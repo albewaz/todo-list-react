@@ -5,31 +5,31 @@ export const Form = styled.form`
   grid-template-columns: 1fr auto;
   grid-gap: 20px;
 
-  @media (max-width: 768px) {
+  @media (max-width: ${({theme}) => theme.breakpoint.mobileMax}px) {
     grid-template-columns: 1fr;
   }
 `;
 
 export const Input = styled.input`
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid ${({theme}) => theme.color.alto};
   min-width: 100%;
 `;
 
 export const Button = styled.button`
   padding: 10px;
-  background: teal;
-  color: white;
+  background: ${({theme}) => theme.color.teal};
+  color: ${({theme}) => theme.color.white};
   border: none;
   transition: background 1s, transform 1s;
 
   &:hover {
-    background-color: rgb(0, 92, 92);
+    filter: brightness(110%);
     transform: scale(1.05);
   }
 
   &:active {
-    background-color: rgb(5, 167, 167);
+    filter: brightness(120%);
   }
 
   @media (max-width: 767px) {
